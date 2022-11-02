@@ -1,0 +1,188 @@
+/* Global settings */
+
+*{
+    box-sizing: border-box;    
+    font-size: 24px;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(230, 230, 230);
+}
+
+.centered-section{
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Column structure */
+
+.col{
+    height: 100%;
+    padding: 45px 0;
+}
+
+.col-1{
+    width: 80%;
+    margin-left: 10%;
+}
+
+.col-3{
+    float: left;
+    width: 30%;
+    margin-left: 3%;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Navigation */
+
+nav{
+    z-index: 2;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+/* Scale the banner area */
+
+.banner{
+    height: 100%;
+}
+
+.banner img{
+    height: 60%;
+    margin: 15px 0 0 20px;
+}
+
+/* Settings for entire topbar */
+
+.navbar{
+    height: 100%;
+    padding-top: 28px;
+    float: right;
+}
+
+.navbar-link{
+    border-bottom: 3px solid rgba(190, 190, 190, 0);
+    padding-bottom: 5px;
+    display: inline-block;
+    margin-right: 30px;
+    font-size: 120%;
+    color: rgb(211, 211, 211);
+    transition: all 0.4s;
+}
+
+.navbar-link:hover{
+    border-bottom: 3px solid rgb(190, 190, 190);
+    color: rgb(190, 190, 190);
+    cursor: pointer;
+}
+
+/* Content */
+
+section{
+    width: 100%;
+}
+
+.hero{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../media/img/bg_hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 550px;
+    overflow: hidden;
+    position: relative;
+}
+
+.hero-content{    
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translate(0, -50%);
+    color: rgb(190, 190, 190);
+}
+
+.hero-content h1{
+    font-size: 180%;
+    margin-bottom: 30px;
+}
+
+.hero-content p{
+    color: rgb(210, 210, 210);
+}
+
+.hero-content p:first-of-type{
+    margin-bottom: 3px;    
+}
+
+.cta-hero{    
+    display: inline-block;
+    margin-top: 45px;
+    margin-right: 25px;
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 50px;
+    padding: 10px 15px;
+    transition: all 0.7s;
+}
+
+.cta-hero:hover{
+    cursor: pointer;
+    background-color: rgb(230, 230, 230);
+    color: rgb(43, 43, 43);
+}
+
+.hero img{    
+    max-height: 80%;
+    position: absolute;
+    right: 20%;
+    bottom: -14%;
+}
+
+/* .container{
+    
+} */
+
+.info-card{
+    box-shadow: 1px 1px 25px rgb(100, 100, 100);
+}
+
+#interests{
+    color: rgb(190, 190, 190);
+    height: 1000px;
+    text-align: center;
+    background-color: rgb(8, 8, 8);
+}
+
+#interests h2{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 110%;
+}
+
+#interests .info-card{
+    background-color: rgb(24, 24, 24);
+}
+
+#interests h3{
+    font-size: 110%;
+    padding-top: 40px;
+    margin-bottom: 30px;
+}
+
+#interests img{
+    width: 100%;
+}
+
+#interests p{
+    font-size: 70%;
+    padding: 20px 10px;
+    color: rgb(148, 147, 147);
+}
