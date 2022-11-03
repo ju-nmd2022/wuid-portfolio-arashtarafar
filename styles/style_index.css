@@ -1,0 +1,62 @@
+.cta-hero{    
+    display: inline-block;
+    margin-top: 45px;
+    margin-right: 25px;
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 50px;
+    padding: 10px 15px;
+    transition: all 0.7s;
+}
+
+.cta-hero:hover{
+    cursor: pointer;
+    background-color: rgb(230, 230, 230);
+    color: rgb(43, 43, 43);
+}
+
+.hero img{    
+    max-height: 80%;
+    position: absolute;
+    right: 20%;
+    bottom: -14%;
+}
+
+/* .container{
+    
+} */
+
+.info-card{
+    box-shadow: 1px 1px 25px rgb(100, 100, 100);
+}
+
+#interests{
+    color: rgb(190, 190, 190);
+    text-align: center;
+    background-color: rgb(8, 8, 8);
+}
+
+#interests h2{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 110%;
+}
+
+#interests .info-card{
+    background-color: rgb(24, 24, 24);
+}
+
+#interests h3{
+    font-size: 110%;
+    padding-top: 40px;
+    margin-bottom: 30px;
+}
+
+#interests img{
+    width: 100%;
+}
+
+#interests p{
+    font-size: 70%;
+    padding: 20px 10px;
+    color: rgb(148, 147, 147);
+}

@@ -1,0 +1,58 @@
+body{
+    
+}
+
+.hero{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../media/img/ju_church.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 550px;
+    overflow: hidden;
+    position: relative;
+}
+
+#activities{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../media/img/ju_residence.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    overflow: hidden;
+    position: relative;
+}
+
+.info-card{
+    box-shadow: 1px 1px 25px rgb(100, 100, 100);
+}
+
+#activities{
+    color: rgb(190, 190, 190);
+    text-align: center;
+    background-color: rgb(8, 8, 8);
+}
+
+#activities h2{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 110%;
+}
+
+#activities .info-card{
+    background-color: rgb(24, 24, 24);
+}
+
+#activities h3{
+    font-size: 110%;
+    padding-top: 40px;
+    margin-bottom: 30px;
+}
+
+#activities img{
+    width: 100%;
+}
+
+#activities p{
+    font-size: 70%;
+    padding: 20px 10px;
+    color: rgb(148, 147, 147);
+}
