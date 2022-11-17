@@ -35,7 +35,7 @@
 
 #projects .info-card{
     background-color: rgb(24, 24, 24);
-    box-shadow: 1px 1px 25px rgb(100, 100, 100);
+    box-shadow: 1px 1px 25px rgb(100, 100, 100);    
 }
 
 #projects .info-card:hover{

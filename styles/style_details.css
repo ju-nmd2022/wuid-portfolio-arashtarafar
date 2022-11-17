@@ -8,3 +8,20 @@
     overflow: hidden;
     position: relative;
 }
+
+#details{
+    background-color: rgb(230, 230, 230);
+    color: rgb(68, 68, 68);
+    text-align: center;
+}
+
+#details h2{
+    font-size: 110%;
+    padding: 50px 0 30px 0;
+}
+
+#details p{
+    text-align: left;
+    font-size: 75%;
+    padding: 20px 5em;
+}
