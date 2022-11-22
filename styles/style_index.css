@@ -1,3 +1,46 @@
+.hero{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../media/img/bg_hero.jpg");
+    background-attachment: fixed;
+}
+
+#intro{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;    
+}
+
+#intro .hero-content{
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+    padding: 80px;
+    border-radius: 5px;
+    animation-name: dominance;
+    animation-duration: 2s;
+    /* animation-delay: 0; */
+    animation-timing-function: ease-in-out;    
+    animation-iteration-count: infinite;
+    /* animation-fill-mode: forwards; */
+}
+
+@keyframes dominance {
+    0%{
+        border: 1px solid rgba(0, 0, 0, 0);
+        box-shadow: 0 0 100px rgba(0, 0, 0, 0);
+    }
+
+    50%{
+        border: 1px solid rgb(63, 63, 63);
+        box-shadow: 0 0 100px rgb(0, 0, 0);
+    }
+
+    100%{
+        border: 1px solid rgba(0, 0, 0, 0);
+        box-shadow: 0 0 100px rgba(0, 0, 0, 0);
+    }
+}
+
 .cta-hero{    
     display: inline-block;
     margin-top: 45px;
@@ -14,11 +57,40 @@
     color: rgb(43, 43, 43);
 }
 
-.hero img{    
-    max-height: 80%;
+.hero img{
+    /* max-height: 80%;
     position: absolute;
-    right: 20%;
-    bottom: -14%;
+    right: 10%;
+    bottom: -14%; */
+    max-height: 30%;
+    border: 4px solid rgba(153, 57, 57, 0.7);
+    border-radius: 50%;
+    opacity: 85%;
+    animation-name: rainbow;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rainbow{
+    0%{
+        border-color: rgba(153, 57, 57, 0.7);
+    }
+
+    25%{
+        border-color: rgba(153, 147, 57, 0.7);
+    }
+
+    50%{
+        border-color: rgba(60, 153, 57, 0.7);
+    }
+
+    75%{
+        border-color: rgba(57, 87, 153, 0.7);
+    }
+
+    100%{
+        border-color: rgba(153, 57, 57, 0.7);
+    }
 }
 
 /* .container{
@@ -26,7 +98,7 @@
 } */
 
 .info-card{
-    box-shadow: 1px 1px 25px rgb(100, 100, 100);
+    box-shadow: 1px 1px 25px rgb(12, 12, 12);
 }
 
 #interests{
@@ -38,25 +110,27 @@
 #interests h2{
     padding-top: 50px;
     padding-bottom: 20px;
-    font-size: 110%;
+    font-size: 150%;
 }
 
 #interests .info-card{
     background-color: rgb(24, 24, 24);
+    border-radius: 5px;
 }
 
 #interests h3{
-    font-size: 110%;
+    font-size: 125%;
     padding-top: 40px;
     margin-bottom: 30px;
 }
 
 #interests img{
     width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
 }
 
 #interests p{
-    font-size: 70%;
     padding: 20px 10px;
     color: rgb(148, 147, 147);
 }

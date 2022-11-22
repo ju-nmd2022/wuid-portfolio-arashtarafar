@@ -1,11 +1,6 @@
 .hero{
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../media/img/ju_home.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
     background-attachment: fixed;
-    height: 550px;
-    overflow: hidden;
-    position: relative;
 }
 
 #projects{
@@ -17,7 +12,7 @@
 #projects h2{
     padding-top: 80px;
     padding-bottom: 20px;
-    font-size: 110%;
+    font-size: 150%;
 }
 
 .card-container{
@@ -35,26 +30,28 @@
 
 #projects .info-card{
     background-color: rgb(24, 24, 24);
-    box-shadow: 1px 1px 25px rgb(100, 100, 100);    
+    box-shadow: 1px 1px 25px rgb(12, 12, 12);
+    border-radius: 5px;
 }
 
 #projects .info-card:hover{
-    box-shadow: 2px 2px 25px rgb(146, 140, 111);
+    box-shadow: 1px 1px 15px rgb(87, 87, 87);
 }
 
 #projects h3{
-    font-size: 110%;
+    font-size: 125%;
     padding: 40px 10px 0 10px;
     margin-bottom: 30px;
 }
 
 #projects img{
     width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
 }
 
 #projects p{
     text-align: left;
-    font-size: 70%;
     padding: 20px 15px;
     color: rgb(148, 147, 147);
 }

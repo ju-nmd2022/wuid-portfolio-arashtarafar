@@ -16,3 +16,4 @@ window.addEventListener('scroll',(event) => {
         navbarHandle.classList.add("dockedNav");
     }
 });
+
